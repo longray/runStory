@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1771038447303,
+  "projectRoot": "/home/longray/runStory",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "OMC-使用指南.md",
+      "accessCount": 1,
+      "lastAccessed": 1771038555841,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
