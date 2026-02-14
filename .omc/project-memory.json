@@ -43,15 +43,15 @@
       "type": "file"
     },
     {
-      "path": "更新CLAUDE时遵循渐进式披露.md",
-      "accessCount": 2,
-      "lastAccessed": 1771043068118,
+      "path": "scripts/check-claude-md.sh",
+      "accessCount": 3,
+      "lastAccessed": 1771060995459,
       "type": "file"
     },
     {
-      "path": "scripts/check-claude-md.sh",
+      "path": "更新CLAUDE时遵循渐进式披露.md",
       "accessCount": 2,
-      "lastAccessed": 1771048323086,
+      "lastAccessed": 1771043068118,
       "type": "file"
     },
     {

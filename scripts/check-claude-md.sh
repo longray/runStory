@@ -15,18 +15,16 @@ fi
 # 检查 2: 链接目标存在（修复后的 grep 模式）
 echo "🔍 检查链接目标..."
 MISSING=0
-
-# 修复：使用更精确的 grep 模式
-grep -oE '\[.*\]\([^)]+)\)' CLAUDE.md | while read -r link; do
+grep -oP '\[.*\](\K[^)]*\)' CLAUDE.md | while read link; do
     # 去掉末尾的 )
     file="${link%)}"
-
-    if [ ! -f "$file" ] && [ ! -f "reference/$file" ]; then
-        echo "❌ 链接目标不存在：$file"
-        MISSING=$((MISSING + 1))
-    fi
+    if [ ! -f "$file" ] && [ ! -f "reference/${file#*/}" ]; then
+        # 检查 docs/ 和 reference/ 目录
+        if [ ! -f "docs/${file#*/}" ] && [ ! -f "docs/reference/${file#*/}" ]; then
+            echo "❌ 链接目标不存在：reference/${file}"
+            MISSING=$((MISSING + 1))
+        fi
 done
-
 if [ $MISSING -eq 0 ]; then
     echo "✅ 所有链接目标存在"
 else
@@ -34,8 +32,14 @@ else
     exit 1
 fi
 
-# 检查 3: 重复内容
+# 检查 3: 重复内容（未来可添加更复杂的检查）
 echo "🔍 检查重复内容..."
 # （这里可以添加更复杂的检查）
 
 echo "✅ 检查完成！"
+
+# 如果配置了 Git Hook，会自动阻止不合格的提交
+if [ -f .git/hooks/pre-commit ]; then
+    echo ""
+    echo "💡 提示：检测到 Git Hook，不合格的提交将被自动阻止"
+fi
