@@ -31,9 +31,147 @@
   "directoryMap": {},
   "hotPaths": [
     {
+      "path": "CLAUDE.md",
+      "accessCount": 9,
+      "lastAccessed": 1771057662876,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE-完全指南.md",
+      "accessCount": 6,
+      "lastAccessed": 1771039832766,
+      "type": "file"
+    },
+    {
+      "path": "更新CLAUDE时遵循渐进式披露.md",
+      "accessCount": 2,
+      "lastAccessed": 1771043068118,
+      "type": "file"
+    },
+    {
+      "path": "scripts/check-claude-md.sh",
+      "accessCount": 2,
+      "lastAccessed": 1771048323086,
+      "type": "file"
+    },
+    {
       "path": "OMC-使用指南.md",
       "accessCount": 1,
       "lastAccessed": 1771038555841,
+      "type": "file"
+    },
+    {
+      "path": "example-progressive-disclosure/PROGRESSIVE-DISCLOSURE-示例.md",
+      "accessCount": 1,
+      "lastAccessed": 1771040526392,
+      "type": "file"
+    },
+    {
+      "path": "实施渐进式披露.md",
+      "accessCount": 1,
+      "lastAccessed": 1771042841045,
+      "type": "file"
+    },
+    {
+      "path": "reference/setup.md",
+      "accessCount": 1,
+      "lastAccessed": 1771042854370,
+      "type": "file"
+    },
+    {
+      "path": "reference/package-management.md",
+      "accessCount": 1,
+      "lastAccessed": 1771042855394,
+      "type": "file"
+    },
+    {
+      "path": "reference/testing.md",
+      "accessCount": 1,
+      "lastAccessed": 1771042856445,
+      "type": "file"
+    },
+    {
+      "path": "reference/code-quality.md",
+      "accessCount": 1,
+      "lastAccessed": 1771042857542,
+      "type": "file"
+    },
+    {
+      "path": "reference/architecture.md",
+      "accessCount": 1,
+      "lastAccessed": 1771042858900,
+      "type": "file"
+    },
+    {
+      "path": "reference/code-style.md",
+      "accessCount": 1,
+      "lastAccessed": 1771042860017,
+      "type": "file"
+    },
+    {
+      "path": "reference/gotchas.md",
+      "accessCount": 1,
+      "lastAccessed": 1771042861046,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1771048017270,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/scripts/add_doc.sh",
+      "accessCount": 1,
+      "lastAccessed": 1771048030449,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/scripts/validate_structure.sh",
+      "accessCount": 1,
+      "lastAccessed": 1771048039778,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/scripts/extract_from_claude.md",
+      "accessCount": 1,
+      "lastAccessed": 1771048051861,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/templates/claude_md_simple.md",
+      "accessCount": 1,
+      "lastAccessed": 1771048063896,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/templates/reference_doc.md",
+      "accessCount": 1,
+      "lastAccessed": 1771048065030,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/checklists/before_adding.md",
+      "accessCount": 1,
+      "lastAccessed": 1771048066312,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/checklists/before_committing.md",
+      "accessCount": 1,
+      "lastAccessed": 1771048067598,
+      "type": "file"
+    },
+    {
+      "path": "渐进式披露工具包/scripts/extract_from_claude.md.sh",
+      "accessCount": 1,
+      "lastAccessed": 1771048087322,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE-渐进式披露规范.md",
+      "accessCount": 1,
+      "lastAccessed": 1771048231351,
       "type": "file"
     }
   ],
